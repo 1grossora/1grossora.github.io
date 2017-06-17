@@ -173,6 +173,15 @@ hr.small {
     padding: 50px 0;
 }
 
+.about .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 4.75em;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
 
 // Usage as a mixin
 .element {
