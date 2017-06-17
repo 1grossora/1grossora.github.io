@@ -172,6 +172,16 @@ hr.small {
 .about {
     padding: 50px 0;
 }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Usage as a mixin
+.element {
+  .center-block();
+}
 
 /* Services */
 
