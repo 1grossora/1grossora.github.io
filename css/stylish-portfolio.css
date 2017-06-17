@@ -177,6 +177,11 @@ hr.small {
   margin-left: auto;
   margin-right: auto;
 }
+.center-block  h1{
+ text-decoration: underline;
+ color: red;
+}
+
 
 // Usage as a mixin
 .element {
