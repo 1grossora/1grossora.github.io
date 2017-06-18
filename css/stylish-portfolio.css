@@ -169,7 +169,7 @@ hr.small {
 
 /* About */
 
-.about {
+/*.about {
     padding: 50px 0;
 }
 
@@ -187,6 +187,32 @@ hr.small {
 .element {
   .center-block();
 }
+*/
+.about {
+    padding: 100px 0;
+}
+
+about h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+about.success {
+    color: #fff;
+    background: #5c676a;
+    padding-bottom:350px;
+}
+
+@media(max-width:767px) {
+    about {
+        padding: 75px 0;
+    }
+
+    about.first {
+        padding-top: 75px;
+    }
+}
+
 
 /* Services */
 
