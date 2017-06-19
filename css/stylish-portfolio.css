@@ -44,13 +44,31 @@ h6 {
 .text-vertical-center h1 {
     /* margin: 0;
     vertical-align: -20px;*/
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
- 
-    
 }
+
+@media(min-width:768px) {
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-color: black;
+    /*vertical-align: middle;*/
+}
+
+.text-vertical-center h1 {
+    /* margin: 0;
+    vertical-align: -20px;*/
+    margin-top: 0px;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+  }/* for media*/  
 
 /* Custom Button Styles */
 
