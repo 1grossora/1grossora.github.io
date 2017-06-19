@@ -50,11 +50,13 @@ h6 {
     font-weight: 700;
 }
 
-@media(min-width:768px) {
+
+@media(max-width:480px) {
+/* This params for when on a mobil device*/
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    color: black;
+    /*color: black;*/
     -webkit-text-stroke-color: black;
     /*vertical-align: middle;*/
 }
@@ -64,7 +66,7 @@ h6 {
     vertical-align: -20px;*/
     margin-top: 0px;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 2em;
     font-weight: 700;
 }
 
