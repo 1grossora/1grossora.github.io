@@ -1,6 +1,11 @@
-<div id="map"></div>
+<section id="map" class="map">
+
 <!-- Replace the value of the key parameter with your own API key. -->
 <script async difer
 src="https://maps.google.com/maps/embed/v1/place?key={{ site.google_api_key }}&q={% for address in site.address %}{{ address.line }},{% endfor %}">
 
 </script>
+
+
+</section>
+
