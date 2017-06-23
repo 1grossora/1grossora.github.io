@@ -1,5 +1,6 @@
 <div id="map"></div>
 <!-- Replace the value of the key parameter with your own API key. -->
 <script async difer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+src="https://maps.google.com/maps/embed/v1/place?key={{ site.google_api_key }}&q={% for address in site.address %}{{ address.line }},{% endfor %}">
+
 </script>
