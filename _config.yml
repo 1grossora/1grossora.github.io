@@ -26,3 +26,5 @@ google_api_key: AIzaSyAkGyPVUIZuC9dKOqiuquwxQENQio5PhPA
 
 # Build settings
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
