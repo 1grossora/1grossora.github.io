@@ -294,7 +294,13 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 10px 0;
-    color: #CCC1C0;
-    background: #0A1612;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  color: #CCC1C0;
+  background: #0A1612;
 }
+
+    /*padding: 10px 0;*/
