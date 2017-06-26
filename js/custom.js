@@ -27,6 +27,9 @@ $(function() {
   });
 });
 
+
+
+/*
 // Map scrolling behaviour
 $(document).ready(function() {
   $('#map_iframe').addClass('scrolloff');
@@ -81,3 +84,5 @@ $(function initMap() {
     infowindow.open(map, marker);
   });
 });
+
+*/
