@@ -261,7 +261,7 @@ hr.small {
 }
 
 /* Callout */
-
+/*
 .callout {
     display: table;
     width: 100%;
@@ -273,10 +273,8 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
-
-/* Map */
-
-.map {
+*/
+/* Map.map {
     height: 500px;
 }
 
@@ -286,10 +284,14 @@ hr.small {
     }
 }
 
+*/
 /*disable custom maps scrolling behaviour*/
+/*
 .scrolloff {
     pointer-events: none;
 }
+
+*/
 
 /* Footer */
 
@@ -303,5 +305,4 @@ footer {
   color: #CCC1C0;
   background: #0A1612;
 }
-
     /*padding: 10px 0;*/
