@@ -238,17 +238,6 @@ hr.small {
 .img-portfolio:hover {
     opacity: 0.8;
 }
-
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
 /* Callout */
 
 .callout {
@@ -279,6 +268,18 @@ footer {
   left: 0;
   height: 20px;
  
+*/
+
+
+/* Services */
+/*
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
 */
 
 
