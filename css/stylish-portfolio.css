@@ -31,7 +31,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #ffffff
+    color: #CCC1C0;
     /*color: #ffffff*/
 }
 
@@ -294,5 +294,7 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 10px 0;
+    color: #CCC1C0;
+    background: #0A1612;
 }
