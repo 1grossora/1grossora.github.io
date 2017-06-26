@@ -9,11 +9,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: Ryan Grosso
+email: 1grossora@gmail.com
+linkedin_username: https://www.linkedin.com/in/ryan-grosso-811542131/
+instagram_username: https://www.instagram.com/groryangro/?hl=en
+github_username: https://github.com/1grossora
 address:
   - line:
   - line:
