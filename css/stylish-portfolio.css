@@ -238,18 +238,6 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-
-
 /* Services */
 
 .services {
@@ -276,6 +264,23 @@ footer {
   height: 20px;
  
 */
+
+
+/* Call to Action */
+/*
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+*/
+
+
+
 
 
 /* Callout */
