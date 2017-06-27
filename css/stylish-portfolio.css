@@ -102,6 +102,7 @@ h6 {
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
+}
 
 .btn-light {
     border-radius: 0;
