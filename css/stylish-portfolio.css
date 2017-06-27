@@ -51,7 +51,18 @@ h6 {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-    color: #1A2930;
+    color: #e2e2e2;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+.text-vertical-center h2 {
+    /* margin: 0;
+    vertical-align: -20px;*/
+    margin-top: 10px;
+    padding: 0;
+    font-weight: 700;
+    color: #e2e2e2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -60,9 +71,8 @@ h6 {
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    /*color: black;*/
-    -webkit-text-stroke-color: black;
-    /*vertical-align: middle;*/
+    color: #e2e2e2;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
 
 .text-vertical-center h1 {
@@ -72,8 +82,20 @@ h6 {
     padding: 0;
     font-size: 3em;
     font-weight: 700;
-    color: #1A2930;
+    color: #e2e2e2;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
+.text-vertical-center h2 {
+    /* margin: 0;
+    vertical-align: -20px;*/
+    margin-top: 1px;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 700;
+    color: #e2e2e2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 
   }/* for media*/  
 
@@ -90,7 +112,6 @@ h6 {
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
-}
 
 .btn-light {
     border-radius: 0;
