@@ -131,17 +131,19 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+    color: #e2e2e2;
 }
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f103";
+    content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
+    color: #e2e2e2;
 }
 
 
