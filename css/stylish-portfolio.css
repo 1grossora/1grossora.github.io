@@ -52,7 +52,7 @@ h6 {
     font-size: 4.5em;
     font-weight: 700;
     color: #e2e2e2;
-    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
 .text-vertical-center h2 {
@@ -83,7 +83,7 @@ h6 {
     font-size: 3em;
     font-weight: 700;
     color: #e2e2e2;
-    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
 
