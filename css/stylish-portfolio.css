@@ -133,6 +133,17 @@ hr.star-primary {
     text-align: center;
 }
 
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f103";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
 
 /* Side Menu */
 
