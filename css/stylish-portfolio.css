@@ -262,6 +262,12 @@ hr.small {
     opacity: 0.8;
 }
 
+h2 { 
+   position: absolute; 
+   top: 20px; 
+   left: 0; 
+   width: 100%; 
+}
 
 
 /* Callout */
