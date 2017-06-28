@@ -245,14 +245,13 @@ hr.small {
     margin-bottom: 30px;
 }
 
-.portfolio-item h1{
-    margin-top: 10px;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-    color: #e2e2e2;
-    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+.portfolio-item h2{ 
+   position: absolute; 
+   top: 20px; 
+   left: 0; 
+   width: 100%; 
 }
+
 
 .img-portfolio {
     margin: 0 auto;
