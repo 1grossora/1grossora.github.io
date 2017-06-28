@@ -252,7 +252,6 @@ hr.small {
     font-weight: 700;
     color: #e2e2e2;
     text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
-
 }
 
 .img-portfolio {
@@ -263,6 +262,19 @@ hr.small {
     opacity: 0.8;
 }
 
+.img-portfolio.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.img-portfolio.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
 
 /* Callout */
 
