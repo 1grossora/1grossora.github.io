@@ -23,17 +23,22 @@ p {
     /*color: #ffffff*/
 }
 
-h1,
+h1{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #CCC1C0;
+}
+
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #CCC1C0;
-    /*color: #ffffff*/
 }
 
 .text-vertical-center {
