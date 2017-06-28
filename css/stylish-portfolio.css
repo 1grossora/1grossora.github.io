@@ -245,11 +245,7 @@ hr.small {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio h1{
+.portfolio-item h1{
     margin-top: 10px;
     padding: 0;
     font-size: 4.5em;
@@ -257,6 +253,10 @@ hr.small {
     color: #e2e2e2;
     text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 
+}
+
+.img-portfolio {
+    margin: 0 auto;
 }
 
 .img-portfolio:hover {
