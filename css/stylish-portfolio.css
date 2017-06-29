@@ -296,6 +296,15 @@ hr.star-primary:after {
    width: 100%; 
 }
 
+.portfolio-item footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
 
 .img-portfolio {
     margin: 0 auto;
