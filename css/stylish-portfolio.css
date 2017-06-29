@@ -292,9 +292,7 @@ hr.star-primary:after {
 
 .portfolio-item h2{ 
    position: absolute; 
-   top: 20px; 
-   left: 0; 
-   width: 100%; 
+   text-align: center;
 }
 
 
