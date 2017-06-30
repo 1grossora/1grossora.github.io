@@ -76,7 +76,7 @@ h6 {
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    color: red;
+    color: #e2e2e2;
     text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
 
@@ -87,7 +87,7 @@ h6 {
     padding: 0;
     font-size: 3em;
     font-weight: 700;
-    color: #e2e2e2;
+    color: red;
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
