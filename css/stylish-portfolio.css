@@ -297,12 +297,16 @@ hr.star-primary:after {
 }
 
 .portfolio-item footer{
-  position: relative;
-  right: 0;
-  bottom: 70px;
-  left: 0;
-  background-color: rgba(247, 206, 62, 0.47);
+  position: absolute;
+  right: 15px;
+  left: 15px;
+  bottom: 30px;
+  background-color: rgba(251, 195, 0, 0.54);
   text-align: center;
+  font-family: FontAwesome;
+  font-size: 2.3em;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .img-portfolio {
