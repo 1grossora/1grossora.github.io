@@ -358,6 +358,9 @@ hr.star-primary:after {
 
 footer {
   padding: 10px 0;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
   color: #CCC1C0;
   background: #0A1612;
 }
