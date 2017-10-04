@@ -11806,7 +11806,7 @@ div#notebook {
 <li><strong>Are there Emoji's</strong>: Is there at least one emoji in the text?</li>
 </ul>
 <h3 id="Model-Types">Model Types<a class="anchor-link" href="#Model-Types">&#182;</a></h3><p>There were 3 models I chose to explore, Lasso , Elastic Net, and Random Forest. The first model, Lasso Regression, implements L1 regularization and is capable of parameter shrinkage and variable selection automatically. The second, Elastic Net, implements a linear combination of L1 and L2 regularization and is used when there are several highly correlated variables. Finally, a random forest model was tried given the features and parameter space.</p>
-<p><img src="img/Chiara_models.png" width="50%"></p>
+<p><img src="https://s3.amazonaws.com/ryan-images/Chiara_models.png" width="50%"></p>
 <p>A grid search(although computationally intensive) was used to optimize the hyper parameters for each mode. The radom forest was chose and returned an r2 score 0.71 for model prediction vs true. Each model used 10 fold cross validation to avoid over training. The learning curves and r2 score is shown below.</p>
 <p><img src="https://s3.amazonaws.com/ryan-images/Chiara_RandomForest.png" width="50%"></p>
 <p>Upon looking at various features I found that there is a large importance on the number of followers and number of posts. Other features, such as fraction of face size to the image, posting on a Sunday, and number of tags, seem intuitive but can vary user to user.</p>
