@@ -11779,7 +11779,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Predictogram:-Predicting-the-number-of-Likes-on-Instagram">Predictogram: Predicting the number of Likes on Instagram<a class="anchor-link" href="#Predictogram:-Predicting-the-number-of-Likes-on-Instagram">&#182;</a></h2><h3 id="Summary:">Summary:<a class="anchor-link" href="#Summary:">&#182;</a></h3><p>Social media marketing is a growing space. Brand and digital marketers pay Instagram influencers to post products on their profiles to reach certain audiences. In this post, I will first address what data is publicly available for Instagram profiles. Then, explore the data for any valuable insights towards how to construct our model. Next, I construct a feature list and build a regression model to predict the number of likes for an influencers subsequent posts. Finally I conclude with future extensions and next obvious steps.</p>
-<p><a href="https://github.com/1grossora/Insight_Predictogram"><img src="img/Ig_Graph_Logo.png" alt="Markdown preferences pane"></a></p>
+<p><a href="https://github.com/1grossora/Insight_Predictogram"><img src="https://s3.amazonaws.com/ryan-images/Ig_Graph_Logo.png" alt="Markdown preferences pane"></a></p>
 <p>This project was conceived, executed, and completed within 3 weeks at Insight Data Science NYC using tools such as , <em>Python, BeautifulSoup, Sklearn, tensorflow im2text, Google Cloud Vision, Word2Vec, matplotlib, and seaborn</em>.</p>
 <p>The code and documentation lives on my Git repository.</p>
 <p><a href="https://github.com/1grossora/Insight_Predictogram">https://github.com/1grossora/Insight_Predictogram</a></p>
@@ -11810,7 +11810,7 @@ div#notebook {
 <p>A grid search(although computationally intensive) was used to optimize the hyper parameters for each mode. The radom forest was chose and returned an r2 score 0.71 for model prediction vs true. Each model used 10 fold cross validation to avoid over training. The learning curves and r2 score is shown below.</p>
 <p><img src="img/Chiara_RandomForest.png" width="50%"></p>
 <p>Upon looking at various features I found that there is a large importance on the number of followers and number of posts. Other features, such as fraction of face size to the image, posting on a Sunday, and number of tags, seem intuitive but can vary user to user.</p>
-<p><img src="img/Chiara_Feature_Impt.png" width="50%"></p>
+<p><img src="https://s3.amazonaws.com/ryan-images/Chiara_Feature_Impt.png" width="50%"></p>
 <h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3><p>Social media has a wealth of data from public influencers. Adding extra model features from image and text data add limited enhancement to the model. The driving factor for the model prediction for this case was having a large number of followers. One future step could be to more deeply leverage deeper features in the image data. Two approaches come to mind. First, one could take a pre trained CNN, such as Inception V3 and use it to categorize what items are in the image, then cluster frequent images. Deep Convolution Neural Networks can identify what is in a photo and then use that as a feature in a regression model. The second, which is more robust, would be to remove the last fully connected layer of the network and feed the nodes directly into a regression model. Due to limited resources and time neither implementation was feasible and is left for a future extension for this study.</p>
 
 </div>
